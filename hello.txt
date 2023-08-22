@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+    <title>RESUME</title>
+ </head>
+ <body>
+    <div style="align-items:right">
+    <form>
+        <h3 style="color: rgb(226, 223, 47);">RESUME</h3>
+        <label for="fname">First name:</label>
+           <input type="text" id="fname" name="fname" value="First name"><br><br>
+        <label for="fname">Father name:</label>
+           <input type="text" id="fname" name="fname" value="Father name"><br><br>
+        <div>
+        <label>Gender: </label>
+            <input type="radio" id="Gender" name="Gender" value="Male">
+           <label for="html">Male</label>
+        <input type="radio" id="Gender" name="Gender" value="Female">
+           <label for="html">Female</label>
+        <input type="radio" id="Gender" name="Gender" value="Other">
+           <label for="html">Other</label><br><br>
+        </div>
+        <div><label for="cars">Qualification</label>
+        <select name="cars" id="cars">
+            <option value="volvo">B. Tech</option>
+            <option value="saab">B.E</option>
+            <option value="opel">10<sup>th</sup></option>
+            <option value="audi">Other</option><br>
+        </select>
+        </div>
+        <div>
+        <label>Language known: </label>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle2">Hindi</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> English</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Kannada</label><br><br>
+        </div>
+    </form></div>
+    <input type="submit" value="Submit">
+    <div style="align-items: right;>
+        <img scr="img.jpg" alt="alter" width="20px" height="35px">
+    </div>
+ </body>
+</html>
